@@ -1,0 +1,5 @@
+﻿  WebcamBlobDetection.cpp
+c:\users\jmsdesk\source\repos\webcamblobdetection\webcamblobdetection\webcamblobdetection.cpp(29): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\jmsdesk\source\repos\webcamblobdetection\webcamblobdetection\webcamblobdetection.cpp(31): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\jmsdesk\source\repos\webcamblobdetection\webcamblobdetection\webcamblobdetection.cpp(33): warning C4305: '=': truncation from 'double' to 'float'
+  WebcamBlobDetection.vcxproj -> C:\Users\jmsdesk\source\repos\WebcamBlobDetection\x64\Debug\WebcamBlobDetection.exe
