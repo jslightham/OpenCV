@@ -1,0 +1,5 @@
+﻿  FirstCVTest.cpp
+c:\users\jmsdesk\source\repos\firstcvtest\firstcvtest\firstcvtest.cpp(37): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\jmsdesk\source\repos\firstcvtest\firstcvtest\firstcvtest.cpp(41): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\jmsdesk\source\repos\firstcvtest\firstcvtest\firstcvtest.cpp(45): warning C4305: '=': truncation from 'double' to 'float'
+  FirstCVTest.vcxproj -> C:\Users\jmsdesk\source\repos\FirstCVTest\x64\Debug\FirstCVTest.exe
