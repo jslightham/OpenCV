@@ -1,7 +1,7 @@
 #include "pch.h"
 #include "opencv2/opencv.hpp"
-#include "windows.h"
 using namespace cv;
+using namespace std;
 int main(int argc, char** argv)
 {
 	VideoCapture cap;
@@ -14,7 +14,7 @@ int main(int argc, char** argv)
 		cap >> frame;
 		if (frame.empty()) break; 
 		Mat OutputImage;
-		inRange(frame, Scalar(70, 60, 50), Scalar(255, 110, 60), OutputImage);
+		inRange(frame, Scalar(183, 188, 182), Scalar(255, 255, 255), OutputImage);
 		imshow("Output", OutputImage);
 
 		if (waitKey(10) == 27) break; 
@@ -33,16 +33,17 @@ int main(int argc, char** argv)
 		params.minInertiaRatio = 0.01;
 
 		bitwise_not(OutputImage, OutputImage);
-		std::vector<KeyPoint> keypoints;
+		vector<KeyPoint> keypoints;
 		Ptr<SimpleBlobDetector> detector = SimpleBlobDetector::create(params);
 		detector->detect(OutputImage, keypoints);
+		/*
 		double x, y;
 		for (int i = 0; i < keypoints.size(); i++) {
 			std::cout << keypoints[i].pt;
 			x = keypoints[i].pt.x;
 			y = keypoints[i].pt.y;
 		}
-
+		*/
 		Mat im_with_keypoints;
 		drawKeypoints(frame, keypoints, im_with_keypoints, Scalar(0, 0, 255), DrawMatchesFlags::DRAW_RICH_KEYPOINTS);
 		imshow("keypoints", im_with_keypoints);

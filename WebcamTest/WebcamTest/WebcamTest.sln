@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WebcamTest", "WebcamTest\WebcamTest.vcxproj", "{B9FAFB4A-6AD8-47F1-B9C5-43375E59CA72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9FAFB4A-6AD8-47F1-B9C5-43375E59CA72}.Debug|x64.ActiveCfg = Debug|x64
+		{B9FAFB4A-6AD8-47F1-B9C5-43375E59CA72}.Debug|x64.Build.0 = Debug|x64
+		{B9FAFB4A-6AD8-47F1-B9C5-43375E59CA72}.Debug|x86.ActiveCfg = Debug|Win32
+		{B9FAFB4A-6AD8-47F1-B9C5-43375E59CA72}.Debug|x86.Build.0 = Debug|Win32
+		{B9FAFB4A-6AD8-47F1-B9C5-43375E59CA72}.Release|x64.ActiveCfg = Release|x64
+		{B9FAFB4A-6AD8-47F1-B9C5-43375E59CA72}.Release|x64.Build.0 = Release|x64
+		{B9FAFB4A-6AD8-47F1-B9C5-43375E59CA72}.Release|x86.ActiveCfg = Release|Win32
+		{B9FAFB4A-6AD8-47F1-B9C5-43375E59CA72}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {275FE208-ABA5-4E19-BA2E-DB9D72640581}
+	EndGlobalSection
+EndGlobal
