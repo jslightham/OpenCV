@@ -1,2 +1,5 @@
 ﻿  WebcamTest.cpp
+c:\users\sligh\documents\ics workspaces\opencv\webcamtest\webcamtest\webcamtest\webcamtest.cpp(33): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\sligh\documents\ics workspaces\opencv\webcamtest\webcamtest\webcamtest\webcamtest.cpp(35): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\sligh\documents\ics workspaces\opencv\webcamtest\webcamtest\webcamtest\webcamtest.cpp(37): warning C4305: '=': truncation from 'double' to 'float'
   WebcamTest.vcxproj -> C:\Users\sligh\Documents\ICS Workspaces\OpenCV\WebcamTest\WebcamTest\x64\Debug\WebcamTest.exe
